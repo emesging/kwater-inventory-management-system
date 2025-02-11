@@ -1,4 +1,4 @@
-k water Inventory Management System
+Inventory Management System
 
 개요
 
@@ -16,6 +16,10 @@ k water Inventory Management System
 
 로그인 관리: 사용자 로그인 정보를 관리합니다.
 
+정렬 기능: 제품 목록을 오름차순 및 내림차순으로 정렬할 수 있습니다.
+
+검색 기능: 특정 제품을 모델명으로 검색할 수 있습니다.
+
 주요 클래스
 
 1. HibernateCFGcode.java
@@ -31,6 +35,10 @@ Java Swing을 활용하여 GUI를 제공하는 메인 애플리케이션입니�
 제품 추가, 검색, 수정, 삭제 기능을 포함합니다.
 
 테이블 정렬 및 검색 기능을 제공합니다.
+
+오름차순 및 내림차순 정렬 기능: 제품 목록을 모델명 기준으로 정렬할 수 있습니다.
+
+검색 기능: 입력된 모델명을 기준으로 제품을 필터링할 수 있습니다.
 
 3. InventoryHistory.java
 
@@ -77,6 +85,10 @@ MySQL 데이터베이스를 실행하고 Hibernate.cfg.xml 설정을 확인합�
 InventoryApp.java를 실행하여 GUI를 실행합니다.
 
 제품을 추가, 수정, 삭제하고 검색 기능을 테스트합니다.
+
+테이블에서 정렬 버튼을 클릭하여 오름차순/내림차순 정렬 기능을 확인합니다.
+
+검색 창에 모델명을 입력하여 제품을 필터링하는 기능을 확인합니다.
 
 개발 환경
 
