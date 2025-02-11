@@ -20,6 +20,8 @@ Inventory Management System
 
 검색 기능: 특정 제품을 모델명으로 검색할 수 있습니다.
 
+더블 클릭을 통한 입출고 관리: 제품을 더블 클릭하면 입출고를 관리할 수 있는 팝업 창이 나타납니다.
+
 주요 클래스
 
 1. HibernateCFGcode.java
